@@ -1,9 +1,3 @@
-//
-//  Layout.swift
-//  project-kiosk
-//
-//  Created by Yujin Kim on 2023-07-25.
-//
 /**
  * MARK: 현재 상영 중인 영화
  * 1.밀수, 2시간 9분, 범죄
@@ -20,6 +14,7 @@
  * 12.슈퍼키드 헤일리, 1시간 15분, 애니메이션
  * 팝콘, 음료도 추가하면 좋을듯
  */
+
 import Foundation
 
 struct Layout {
