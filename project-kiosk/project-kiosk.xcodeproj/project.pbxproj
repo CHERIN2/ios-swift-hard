@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1BB5B9A42A6E3B5800BF18D4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB5B9A32A6E3B5800BF18D4 /* main.swift */; };
+		1C13A2422A6FA1D20023B72E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A2412A6FA1D20023B72E /* Movie.swift */; };
+		1C13A2442A6FA1F00023B72E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A2432A6FA1F00023B72E /* Menu.swift */; };
+		1C13A2472A6FA20D0023B72E /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A2462A6FA20D0023B72E /* Launcher.swift */; };
+		1C13A24A2A6FA23A0023B72E /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A2492A6FA23A0023B72E /* Layout.swift */; };
+		1C13A24C2A6FA2490023B72E /* Manual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A24B2A6FA2490023B72E /* Manual.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		1BB5B9A02A6E3B5800BF18D4 /* project-kiosk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project-kiosk"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB5B9A32A6E3B5800BF18D4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C13A2412A6FA1D20023B72E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1C13A2432A6FA1F00023B72E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1C13A2462A6FA20D0023B72E /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
+		1C13A2492A6FA23A0023B72E /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		1C13A24B2A6FA2490023B72E /* Manual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manual.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,30 @@
 		1BB5B9A22A6E3B5800BF18D4 /* project-kiosk */ = {
 			isa = PBXGroup;
 			children = (
+				1C13A2452A6FA1FC0023B72E /* Interface */,
+				1C13A2402A6FA1BB0023B72E /* Model */,
 				1BB5B9A32A6E3B5800BF18D4 /* main.swift */,
 			);
 			path = "project-kiosk";
+			sourceTree = "<group>";
+		};
+		1C13A2402A6FA1BB0023B72E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C13A2412A6FA1D20023B72E /* Movie.swift */,
+				1C13A2432A6FA1F00023B72E /* Menu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C13A2452A6FA1FC0023B72E /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1C13A2462A6FA20D0023B72E /* Launcher.swift */,
+				1C13A2492A6FA23A0023B72E /* Layout.swift */,
+				1C13A24B2A6FA2490023B72E /* Manual.swift */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C13A2442A6FA1F00023B72E /* Menu.swift in Sources */,
+				1C13A2422A6FA1D20023B72E /* Movie.swift in Sources */,
+				1C13A24A2A6FA23A0023B72E /* Layout.swift in Sources */,
 				1BB5B9A42A6E3B5800BF18D4 /* main.swift in Sources */,
+				1C13A2472A6FA20D0023B72E /* Launcher.swift in Sources */,
+				1C13A24C2A6FA2490023B72E /* Manual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
