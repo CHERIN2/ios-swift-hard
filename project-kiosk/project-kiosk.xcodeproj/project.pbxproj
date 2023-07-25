@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1BB5B9A42A6E3B5800BF18D4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB5B9A32A6E3B5800BF18D4 /* main.swift */; };
+		1BED8BA82A6FA6D300E4DE91 /* Tikecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BED8BA72A6FA6D300E4DE91 /* Tikecting.swift */; };
+		1BED8BAA2A6FAB1200E4DE91 /* TikectingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BED8BA92A6FAB1200E4DE91 /* TikectingLayout.swift */; };
+		1BED8BAE2A6FB6C100E4DE91 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BED8BAD2A6FB6C100E4DE91 /* Payment.swift */; };
 		1C13A2422A6FA1D20023B72E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A2412A6FA1D20023B72E /* Movie.swift */; };
 		1C13A2442A6FA1F00023B72E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A2432A6FA1F00023B72E /* Menu.swift */; };
 		1C13A2472A6FA20D0023B72E /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A2462A6FA20D0023B72E /* Launcher.swift */; };
@@ -30,6 +33,9 @@
 /* Begin PBXFileReference section */
 		1BB5B9A02A6E3B5800BF18D4 /* project-kiosk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project-kiosk"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB5B9A32A6E3B5800BF18D4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1BED8BA72A6FA6D300E4DE91 /* Tikecting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tikecting.swift; sourceTree = "<group>"; };
+		1BED8BA92A6FAB1200E4DE91 /* TikectingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikectingLayout.swift; sourceTree = "<group>"; };
+		1BED8BAD2A6FB6C100E4DE91 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 		1C13A2412A6FA1D20023B72E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		1C13A2432A6FA1F00023B72E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		1C13A2462A6FA20D0023B72E /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
@@ -79,6 +85,8 @@
 			children = (
 				1C13A2412A6FA1D20023B72E /* Movie.swift */,
 				1C13A2432A6FA1F00023B72E /* Menu.swift */,
+				1BED8BA72A6FA6D300E4DE91 /* Tikecting.swift */,
+				1BED8BAD2A6FB6C100E4DE91 /* Payment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +97,7 @@
 				1C13A2462A6FA20D0023B72E /* Launcher.swift */,
 				1C13A2492A6FA23A0023B72E /* Layout.swift */,
 				1C13A24B2A6FA2490023B72E /* Manual.swift */,
+				1BED8BA92A6FAB1200E4DE91 /* TikectingLayout.swift */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -151,11 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BED8BA82A6FA6D300E4DE91 /* Tikecting.swift in Sources */,
 				1C13A2442A6FA1F00023B72E /* Menu.swift in Sources */,
 				1C13A2422A6FA1D20023B72E /* Movie.swift in Sources */,
 				1C13A24A2A6FA23A0023B72E /* Layout.swift in Sources */,
+				1BED8BAA2A6FAB1200E4DE91 /* TikectingLayout.swift in Sources */,
 				1BB5B9A42A6E3B5800BF18D4 /* main.swift in Sources */,
 				1C13A2472A6FA20D0023B72E /* Launcher.swift in Sources */,
+				1BED8BAE2A6FB6C100E4DE91 /* Payment.swift in Sources */,
 				1C13A24C2A6FA2490023B72E /* Manual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,17 +1,10 @@
-//
-//  Launcher.swift
-//  project-kiosk
-//
-//  Created by Yujin Kim on 2023-07-25.
-//
-
 import Foundation
 
 let manual = Manual()
 let layout = Layout()
 
 func app() {
-	//MARK: Run console without debug build
+	// MARK: Run console without debug build
 	print(manual.on)
 	print(layout.shrink())
 	print(manual.selectMenu)
@@ -27,7 +20,7 @@ func app() {
 			case "D":
 				layout.showCurrentMovieDetails()
 			case "2":
-				print("영화 예매")
+				print("영화 예매") // 7.25 > start
 			case "3":
 				print("구매 확인")
 			case "4":
