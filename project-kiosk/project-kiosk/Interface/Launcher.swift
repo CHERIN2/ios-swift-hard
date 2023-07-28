@@ -20,7 +20,7 @@ func app() {
 			case "D":
 				layout.showCurrentMovieDetails()
 			case "2":
-				print("영화 예매") // 7.25 > start
+                reserveMovies(movieNum: Double(0.0), price: 15_000)
 			case "3":
 				print("구매 확인")
 			case "4":

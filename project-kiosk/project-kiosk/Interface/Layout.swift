@@ -146,15 +146,15 @@ struct Layout {
 			print("\(index + 1). \(movie.title)   \n   \(movie.category) | \(movie.runningTime)   \n   \(movie.plot)")
 			print("----------")
 		}
-		print("뒤로: [1] \(spacer()) 홈: [0]")
+		print("뒤로: [0] \(spacer()) 홈: [H]")
 		guard let selected = readLine()?.uppercased() else {
 			print("번호가 잘못되었습니다. 다시 선택해주세요.")
 			return
 		}
 		switch selected {
-			case "1":
-				showCurrentMovie()
 			case "0":
+				showCurrentMovie()
+			case "H":
 				showMenu()
 			default:
 				print("번호가 잘못되었습니다. 다시 선택해주세요.")
